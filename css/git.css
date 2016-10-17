@@ -1,0 +1,36 @@
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+ .columns img{
+    width: 100%;
+    height: 250px;
+ }
+
+.projects {
+  margin: 5px;
+}
+
+header {
+ 
+  font-size: 60px;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+
+.max{
+  padding: 10px;
+}
+.max img{
+  width: 100%;
+  height: 500px;  
+}
+
+.max video {
+  width: 100%;
+  height: 400px;
+}

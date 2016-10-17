@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/my.scss.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/foundation.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body >
+	<div class="row" class="container">
+		<div class ="medium-5 columns" class="tab-container">
+			<ul class="tabs" data-tabs id="example-tabs">
+			      <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Basic</a></li>
+			      <li class="tabs-title"><a href="#panel2">Fx1</a></li>
+			      <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
+			      <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
+    		</ul>
+		<div class = "tabs-content">
+		<div class= "tabs-panel is-active"id="panel1">
+			<ul>
+				<li>
+					<input type="file" id="imageLoader">
+				</li>
+				<li>
+					<button type="button" id="reset-panel1">Reset</button>
+				</li>
+				<li>
+					<label>Width</label>
+					<div class="range-slider">
+						<input class="range-slider__range" type="range" id ="widthControl" name="width" max="1000">
+						<span class="range-slider__value">500</span>
+					</div>
+				</li>
+				<li>
+					<label>Height </label>
+					<div class="range-slider">
+						<input class="range-slider__range" type="range" id ="heightControl" name="height"min="-100"max="500">
+						<span class="range-slider__value">500</span>
+					</div>
+				</li>
+				<li>
+					<label> xPosition </label>
+					<div class="range-slider">
+						<input class="range-slider__range" type="range" id ="xPos" name="xPos"min="-100"max="500">
+						<span class="range-slider__value">0</span>
+					</div>
+				</li>
+				<li>
+					<label> yPosition </label>
+					<div class="range-slider"> 
+						<input class="range-slider__range" type="range" id ="yPos" name="yPos" max="500">
+						<span class="range-slider__value">0</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="tabs-panel" id="panel2">
+			<ul>
+				<li>
+					<label>Brightness</label>
+					<div class="range-slider">
+						<input class="range-slider__range" type="range" id ="brigthnessControl" name="brightness" max="1000">
+						<span class="range-slider__value">0</span>
+					</div>
+				</li>
+			</ul>	
+		</div>
+		</div>
+		</div>
+		<div class="medium-7 columns" id="canvasdiv">
+		</div>
+	</div>
+</body>
+</html>
