@@ -1,0 +1,36 @@
+[{
+    "name": "Inspire Action Project",
+    "image": "img/iap_map.png",
+    "description": "Developed Interactive Web Map for Non Profit using  Google Maps JavaSript API,PHP, and mySQL. As well as added to photo cropping, and cover photo features for organizations and profiles.",
+    "url": "http://inspireactionproject.com/beta/map",
+    "github": ""
+},
+{
+    "name": "Artificial Intelligence In The Game of Set",
+    "image": "",
+    "description": "Current developing multiplayer version of the card game set with various AI algorithms to researchbest performance strategies, and create believable opponent for feature based games.",
+    "url": "",
+    "github": "https://github.com/aldenwels/Game-of-Set-Research-"
+}
+{
+    "name": "Larry's Box",
+    "image": "img/larrysbox.png",
+    "description": "Development of e-commerce platform to sell clothing, and more for digital artist using the Big Cartel Platform, and JavaScript",
+    "url": "http://larrysbox.bigcartel.com/",
+    "github": "https://github.com/aldenwels/larrysbox-bigcartel-theme-1-"
+}
+{
+    "name": "PyMax",
+    "image": "",
+    "description": "Implementing basic OSC cross communication between python, and Max/MSP for development of synthesizer based on Conway's Game of Life",
+    "url": "",
+    "github": "https://github.com/aldenwels/pyMax"
+}
+{
+    "name": "C++ Sudoku Puzzle Solver",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/364px-Sudoku-by-L2G-20050714.svg.png",
+    "description": "Creation of Sudoku Puzzle Solver in C++ using backtracking, AC-3, and minimum value remaining heuristic",
+    "url": "",
+    "github": "https://github.com/aldenwels/Sudoku-Puzzle-Solver"
+}
+]
